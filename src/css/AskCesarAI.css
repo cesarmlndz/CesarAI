@@ -1,0 +1,10 @@
+.main-container {
+    width: 80%;
+    min-height: 30rem;
+    margin: 2rem auto;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-bottom: 0;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

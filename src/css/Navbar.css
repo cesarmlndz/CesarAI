@@ -1,0 +1,21 @@
+.navbar-logo {
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding: 0.8rem 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar p {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.navbar img {
+    width: 1.8rem;
+}

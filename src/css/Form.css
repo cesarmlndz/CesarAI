@@ -1,0 +1,54 @@
+.form {
+    width: 80%;
+    display: flex;
+    margin: 2.5rem auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+input {
+    display: block;
+    width: 90%;
+    padding: 1rem;
+    border: 1px solid whitesmoke;
+    color: black;
+    font-size: 1.1rem;
+    background: whitesmoke;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+input::placeholder {
+    color: rgba(0, 0, 0, 0.434);
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    width: 10%;
+    padding: 0.5rem 2rem;
+    font-size: 1.1rem;
+    border: 1px solid whitesmoke;
+    border-left: 1px solid gray;
+    color: black;
+    cursor: pointer;
+    background: whitesmoke;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+button:hover {
+    background: rgba(154, 154, 154, 0.349);
+    color: black;
+}
+
+.typing-message {
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    font-size: 1.1rem;
+    color: blue;
+}
