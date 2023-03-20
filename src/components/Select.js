@@ -35,6 +35,6 @@ export default function Select(props) {
         <option value='Explain like Bad Bunny'>
           Explain like Bad Bunny
         </option>
-      </select>
+    </select>
   )
 }

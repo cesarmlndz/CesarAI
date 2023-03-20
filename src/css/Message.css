@@ -9,3 +9,13 @@
 .chat-container img {
     width: 2.5rem;
 }
+
+@media (max-width: 450px) {
+    .chat-container img {
+        width: 1.5rem;
+    }
+
+    .message-content {
+        font-size: 0.9rem;
+    }
+}

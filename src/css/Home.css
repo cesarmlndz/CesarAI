@@ -1,14 +1,16 @@
 .home-container {
-    width: 80%;
+    width: 95%;
     margin: 7rem auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 6rem;
     align-items: center;
     padding: 2rem;
+    flex-wrap: wrap;
 }
 
 .service {
-    width: 40%;
+    width: 30rem;
     border: 1px solid grey;
     display: flex;
     flex-direction: column;
@@ -27,4 +29,28 @@
 
 .service:hover {
     outline: 2px solid black;
+}
+
+@media (max-width: 1200px) {
+    .home-container {
+        margin-top: 3rem;
+        gap: 3rem;
+    }
+
+    .service {
+        width: 25rem;
+        gap: 1.5rem;
+    }
+
+    .service-title {
+        font-size: 1.2rem;
+    }
+
+    .service img {
+        width: 4rem;
+    }
+
+    .service-description {
+        font-size: 0.8rem;
+    }
 }

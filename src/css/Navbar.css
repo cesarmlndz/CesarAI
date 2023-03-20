@@ -19,3 +19,9 @@
 .navbar img {
     width: 1.8rem;
 }
+
+@media (max-width: 450px) {
+    .navbar-logo {
+        padding-left: 1.5rem;
+    }
+}

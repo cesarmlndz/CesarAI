@@ -13,3 +13,11 @@ select {
 select:focus {
     outline: none;
 }
+
+@media (max-width: 450px) {
+    select {
+        width: 80%;
+        height: 3.4rem;
+        font-size: 0.9rem;
+    }
+}

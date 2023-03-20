@@ -49,7 +49,7 @@ export default function MainPage(props) {
     const systemIntro = {
       role: "system",
       content: answerStyle
-    }
+    };
 
     const apiBody = {
       "model" : "gpt-3.5-turbo",
@@ -73,7 +73,7 @@ export default function MainPage(props) {
         message: data.choices[0].message.content
       }])
     })
-    .catch((err) => console.log(err))
+    .catch((err) => console.log(err)) 
   };
   return ( 
     <>
@@ -85,6 +85,6 @@ export default function MainPage(props) {
         {isThinking && <p className="typing-message">CesarAI is typing...</p>}
       </div>
       <Form onSubmit={addQuestion} setPrompt={setQuestion} disabled={disabled} inputRef={inputRef} placeholder={placeholder}/>
-    </>
+    </> 
   );
 }

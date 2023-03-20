@@ -21,6 +21,6 @@ export default function Form(props) {
           style={disabled ? { cursor: 'not-allowed' } : { cursor: 'pointer' }}
           >Send
         </button>
-      </form>
+    </form>
   )
 }

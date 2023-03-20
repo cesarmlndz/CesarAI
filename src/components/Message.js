@@ -8,7 +8,7 @@ export default function Message(props) {
   return (
     <div className="chat-container">
       <img src={role === "user" ? userImage : chatGPTImage} alt='icon'/>
-      <p className="messae-content">{message}</p>
+      <p className="message-content">{message}</p>
     </div>
   );
 }

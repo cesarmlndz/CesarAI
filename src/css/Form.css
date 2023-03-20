@@ -52,3 +52,16 @@ button:hover {
     font-size: 1.1rem;
     color: blue;
 }
+
+@media (max-width: 450px) {
+    button {
+        font-size: 0.9rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        font-size: 0.9rem;
+    }
+}

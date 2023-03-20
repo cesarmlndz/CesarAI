@@ -47,6 +47,6 @@ export default function ImageRendering(props) {
         } 
       </div>
       <Form placeholder={placeholder} onSubmit={renderImage} setPrompt={setImagePrompt} disabled={disabled} setDisabled={setDisabled} inputRef={inputRef}/>
-    </>
+    </> 
   )
 }
