@@ -11,7 +11,7 @@ const configuration = new Configuration({
 const openAI = new OpenAIApi(configuration)
 
 export default function ImageRendering(props) {
-  const { placeholder, disabled, setDisabled } = props
+  const { placeholder, disabled, setDisabled } = props 
 
   const [imagePrompt, setImagePrompt] = useState("")
   const [imageURL, setImageURL] = useState("")
@@ -30,6 +30,7 @@ export default function ImageRendering(props) {
     const imageData = {
       prompt: imagePrompt
     }
+    
     const response = await openAI.createImage(imageData);
     const urlData = response.data.data[0].url;
 
